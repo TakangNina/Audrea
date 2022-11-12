@@ -1,0 +1,39 @@
+.home-page{
+   background-color: orangered;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    
+}
+.text{
+    margin-left: 117px;
+    padding-top: 200px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.highlight {
+    background-color: rgba(255, 166, 0, 0.596);
+    padding-inline: 0.5rem ;
+}
+.button{
+    /* padding-top: 100px; */
+    /* margin-left: 115px; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    transition: all 0.5 ease;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.507);
+    color: black;
+}

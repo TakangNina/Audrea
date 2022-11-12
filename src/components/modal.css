@@ -1,0 +1,95 @@
+.modal-container{
+
+    height: 100vh;
+    width: 100vw;
+    background:gray;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 2rem;
+}
+
+
+.login__form{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__body{
+    /* width:100vw; */
+margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    background-color: orangered;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px rgb(226, 211, 211);
+}
+
+.login__form {
+    opacity: 1;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input {
+    width: 100%;
+    opacity: .4;
+}
+
+.input > input{
+    width: 100%;
+    outline: none;
+    padding: 0.25rem 0.1rem;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.input>p{
+    color: white;
+    font-size: large;
+    font-weight: light;
+    margin-bottom: 0 !important;
+}
+input::placeholder{
+    font-style: oblique;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center    
+}
+.button>button{
+    color: orange;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.button > button:hover {
+    color: orangered;
+}

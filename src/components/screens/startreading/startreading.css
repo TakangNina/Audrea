@@ -1,0 +1,76 @@
+.h3{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.happy{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    background-color: orangered;
+    color: white;
+    font-weight: lighter;
+    padding-top: 90px;
+    padding-left: 15px;
+    gap: 20px;
+
+}
+.happy.wrapper img{
+    width: 50%;
+}
+.happy>h3{
+    color: white;
+    padding-top: 50px;
+    font-weight: 200;
+
+}
+.happy>h2{
+    color: white;
+    padding-top: 15px;
+}
+.what{
+    color: white;
+    font-weight:lighter;
+    padding-top: 20px;
+    
+}
+.wrapper{
+    display: flex;
+    white-space: none;
+    gap: 120px;
+    margin-left: 50px;
+}
+
+.phase{
+    display: flex;
+    gap: 120px;
+    
+}
+.phase .card-body img {
+ width: 60%;
+
+}
+.jay{
+    display: flex;
+    gap: 120px;
+    margin-left: 80px;
+}
+.jay.card-body img{
+    width: 50%;
+}
+.cardbtn{
+    width: 70px;
+    border-radius: 15px;
+    background-color: orangered;
+    border: 2px solid white;
+    color: white;
+    padding: 0.25rem 0.5rem
+    
+}
+.cardbtn:hover{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.jay>cardbtn.button{
+    width: 200px;
+}
+.happy>img{
+    border-radius: 5px;
+}

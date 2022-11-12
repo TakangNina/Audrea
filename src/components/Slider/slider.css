@@ -1,0 +1,18 @@
+.main{
+    padding: left;
+    justify-content: baseline;
+    align-items: baseline;
+    grid-auto-flow: column;
+    justify-items: auto;
+
+}
+.picture{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: aqua;
+    text-shadow: azure;
+}
+.faith{
+    
+}

@@ -1,0 +1,44 @@
+/* *{
+    background-color: orangered;
+} */
+
+ .about {
+    
+    background-color: orangered;
+    height: 100vh;
+    color: #fff;
+} 
+
+
+.logo > h2{
+    padding-left:600px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: white;
+}
+.about-right {
+    padding-top: 130px;
+    text-align: center;
+}
+.access{
+    padding-left: 600;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.image{
+    grid-column: 1/2;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+}
+
+.paragraph {
+    font-weight: 300;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+}
