@@ -1,0 +1,13 @@
+.me-auto{
+    padding-left: 40rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    gap: 3.2rem;
+}
+.me-auto:last-child{
+    margin-right: 2rem;
+}
+.link{
+    color: white;
+}

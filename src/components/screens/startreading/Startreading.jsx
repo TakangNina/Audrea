@@ -66,8 +66,8 @@ function Startreading() {
       </div>
       <div>
   
-        <h3>Welcome Home</h3>
-        <h2>Top Picks For You</h2>
+        <h3 className="Welkie">Welcome Home🌻</h3>
+        <h2 className="welkie">Top Picks For You</h2>
       </div>
       <div className="wrapper">
         <div className="happycard">
@@ -96,7 +96,7 @@ function Startreading() {
         </div>
       </div>
       <div className="what">
-        <h2>More Of What You Like</h2>
+        <h2 className="welkie">More Of What You Like</h2>
       </div>
       <div className="wrapper">
       <div className="phase">
@@ -139,7 +139,7 @@ function Startreading() {
         </div>
       </div>
       <div>
-        <h2>Audrea Recommends</h2>
+        <h2 className="melkie">Audrea Recommends</h2>
       </div>
       <div className="jay">
         <div>

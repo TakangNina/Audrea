@@ -74,3 +74,22 @@
 .happy>img{
     border-radius: 5px;
 }
+.welkie{
+    margin-left: 3rem;
+    font-family: sans-serif;
+}
+.Welkie{
+    font-style: italic;
+    margin-left: 3.2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 3.2rem;
+    font-family: sans-serif;
+}
+.melkie{
+    margin-left: 4.8rem;
+
+}
+
+.happy{
+    justify-content: center;
+}

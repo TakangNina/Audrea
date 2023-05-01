@@ -12,12 +12,6 @@ import Interests from "./components/Interests/Interests";
 import Footer from "./components/Footer/Footer";
 import loader from "./components/loader/loader";
 
-// hiohiohsiaodhfiohsadofh
-
-
-
-
-// ohoihweiofhioerwhiohowi
 const App = () => {
    window.addEventListener("scroll",e=>{
      const navbar=document.getElementById("navbar")
@@ -33,7 +27,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Navbar bg="light" expand="lg" className="fs-6 flex-grow-3 py-3 bg-secondary" id="navbar" style={{width:"98.75vw",top:0,zIndex:11}}>
+        <Navbar bg="light" expand="lg" className="fs-6 flex-grow-3 py-3 bg-secondary" id="navbar" style={{width:"100%",top:0,zIndex:9}}>
           <Container>
             <Navbar.Brand href="#home">Audrea</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
