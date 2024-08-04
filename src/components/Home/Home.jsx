@@ -22,7 +22,7 @@ function Home() {
             <h1 className="hi">Hi there, we are </h1>
             <span className="audrea">AUDREA</span> 
 
-            <h2 className="escape">Your realest escape from reality🌻</h2>
+            <h2 className="escape">CYSOMF</h2>
           
           <div className="button">
             <a href="./Startreading" role="button">
